@@ -1,6 +1,6 @@
 ## Table of Contents
 
-1. [Introduction](#officeops-workforce-productivity-suite)
+1. [Introduction](#HRops-workforce-productivity-suite)
    - [Deployed Website](#deployed-website)
    - [Default Credentials](#default-credentials)
 2. [Features](#features)
@@ -12,9 +12,9 @@
 5. [Contributions](#contributions)
 6. [License](#license)
 
-# OfficeOps: Workforce Productivity Suite
+# HROps: Workforce Productivity Suite
 
-OfficeOps is a powerful Workforce Productivity Suite built using Django, designed to streamline HR and office management processes within your organization. This project allows CEOs, Managers, and Employees to manage various aspects of HR, including employee information, attendance, feedback, and leave requests.
+HROps is a powerful Workforce Productivity Suite built using Django, designed to streamline HR and office management processes within your organization. This project allows CEOs, Managers, and Employees to manage various aspects of HR, including employee information, attendance, feedback, and leave requests.
 
 ## Deployed Website
 
@@ -93,7 +93,7 @@ To set up this project on your local machine, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/Gaurav241/OfficeOps-WPS.git
+git clone https://github.com/Emmaobi7/HROps-WPS.git
 ```
 2. Create a virtual environment and activate it:
 ```
@@ -102,12 +102,12 @@ venv\Scripts\activate
 ```
 3. Navigate to the project directory and setup environment:
 ```
-cd OfficeOps-WPS
+cd HROps
 ```
 Create .env File: Create a file named .env in the project directory. Add the following content to the .env file:
-or just rename .env.example to .env
+
 ```
-DATABASE_URL = "postgres://USER:PASSWORD@localhost:5432/DB_NAME"
+DATABASE_URL = "mysql://USER:PASSWORD@localhost:5432/DB_NAME"
 SECRET_KEY = "your_secret_key"
 ```
 NOTE: Make sure to replace YOUR_USER, YOUR_PASSWORD, YOUR_DB_NAME with your actual database credentials. 
