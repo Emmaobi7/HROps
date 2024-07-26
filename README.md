@@ -93,7 +93,7 @@ To set up this project on your local machine, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/Emmaobi7/HROps-WPS.git
+git clone https://github.com/Emmaobi7/HROps.git
 ```
 2. Create a virtual environment and activate it:
 ```
